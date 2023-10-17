@@ -30,8 +30,8 @@ body .body1{
     color: #000;
     font-family: 'Lato';
     font-size: 25px;
-    font-style: light;
-    font-weight: 200;
+    font-style: normal;
+    font-weight: lighter;
     line-height: 32px; /* 128% */
 }
 
@@ -89,6 +89,17 @@ input[type=text] {
     font-size: 16px;
     resize: none;
   }
+
+leftBox{
+    float: left;
+    width: 100px;
+}
+
+rightBox{
+    float: right;
+    width: 100px;
+    margin-left: 60px;
+}
 
 /* text area */
 textarea {
