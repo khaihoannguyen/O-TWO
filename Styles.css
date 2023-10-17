@@ -68,11 +68,12 @@ line-height: normal;
 .getinvolved{
     background-color: #C8102E;
     height: 856px;
-    width: max-content;
+    width: 1400px;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 /*Field input*/
