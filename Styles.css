@@ -1,7 +1,7 @@
 
 title{
     color: var(--Black, #070707);
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
@@ -10,7 +10,7 @@ title{
 
 h2{
     color: #000;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
@@ -19,7 +19,7 @@ h2{
 
 h3{
     color: #000;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -28,25 +28,25 @@ h3{
 
 body .body1{
     color: #000;
-    font-family: lato;
+    font-family: 'Lato';
     font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
+    font-style: light;
+    font-weight: 200;
     line-height: 32px; /* 128% */
 }
 
 body .body2{
     color: #000;
-font-family: Lato;
+font-family: 'Lato';
 font-size: 20px;
-font-style: normal;
+font-style: light;
 font-weight: 400;
 line-height: normal;
 }
 
 caption{
     color: var(--White, #FFF);
-font-family: Lato;
+font-family: 'Lato';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -57,7 +57,7 @@ line-height: normal;
 label{
     color: #FFF;
 text-align: center;
-font-family: Lato;
+font-family: 'Lato';
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -112,6 +112,8 @@ input[type=button], input[type=submit], input[type=reset] {
     border-radius: 10px;
     color: white;
     padding: 20px 32px;
+    font-family: 'Lato';
+    font-size: 14px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
