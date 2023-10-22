@@ -54,14 +54,14 @@ h2{
 
 h3{
     font-family: 'Lato';
-    font-size: 32px;
+    font-size: 35px;
     font-style: normal;
     font-weight: lighter;
 }
 
 body{
     font-family: 'Lato';
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: lighter;
 }
@@ -166,4 +166,10 @@ body{
   content: "";
   display: table;
   clear: both;
+}
+
+.rectangle{
+  height: 20vw;
+  width: 100%;
+  background-color: #C6112E;
 }
