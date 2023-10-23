@@ -13,6 +13,7 @@ body {
 .topnav a {
   float: left;
   color: #f2f2f2;
+  align-items: center;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -34,8 +35,8 @@ body {
 
 /* Create a logo inside the navbar */
 .logo-image img {
-  width: 46px;
-  height: 46px;
+  width: 3vw;
+  height: 3vw;
   overflow: hidden;
   margin-top: -6px;
 }
@@ -56,7 +57,7 @@ h1 {
 
 h2 {
   font-family: "Lato";
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 400;
   font-style: normal;
   hyphens: none;
@@ -79,7 +80,7 @@ h4 {
   hyphens: none;
 }
 
-body {
+p {
   font-family: "Lato";
   font-size: 20px;
   font-style: normal;
@@ -109,7 +110,6 @@ h4 {
 .slideshow-container {
   max-width: 100%;
   position: relative;
-  margin: 80px 0px 60px 0px;
 }
 
 /* Hide the images by default */
@@ -179,7 +179,7 @@ h4 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-bottom: vw;
+  padding: 5vw 0vw 2vw 0vw;
 }
 
 .description-left {
@@ -198,19 +198,43 @@ h4 {
   align-content: center;
   justify-content: center;
   align-items: flex-start;
-  padding: 2vw 4vw 10vw 4vw;
-  width: 170vw;
+  padding: 0vw 2vw 5vw 2vw;
 }
 
+.body-left{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2vw 4vw 10vw 4vw;
+}
+
+.body-right{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2vw 4vw 10vw 4vw;
+}
 .picture {
   display: flex;
   padding: 0vw 3vw 4vw 3vw;
   width: 200vw;
 }
 
+.text-padding{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 4vw;
+}
+
 .red-bg {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #c6112e;
   width: 100%;
   color: #f2f2f2;
@@ -227,11 +251,17 @@ h4 {
   color: #f2f2f2;
 }
 
-.one-column {
+.one-column-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #f2f2f2;
+}
+
+.one-column-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
@@ -256,7 +286,7 @@ img {
   flex-direction: row;
   align-items: center;
   background-color: #c6112e;
-  padding: 8vw 10vw 8vw 10vw;
+  padding: 8vw 1vw 8vw 10vw;
 }
 
 .heading2-caption {
@@ -275,7 +305,7 @@ img {
 }
 
 .line {
-  width: 480px;
+  width: 36vw;
   border: 1px solid #000000;
   margin: 3px;
   display: inline-block;
@@ -302,4 +332,22 @@ img {
 .icon-img {
   display: flex;
   padding-left: 5vw;
+}
+
+.black-bgr{
+  background-color: #000000;
+  color: #f2f2f2;
+  padding: 0vw 0vw 0vw 3vw;
+}
+
+.spotlight {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.intext-bottom-left {
+  position: absolute;
+  bottom: 10vw;
+  left: 10vw;
+  padding-right: 55vw;
 }
