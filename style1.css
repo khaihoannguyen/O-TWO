@@ -153,10 +153,9 @@ h4 {
   color: #f2f2f2;
   font-size: 15px;
   font-weight: medium;
-  padding: 0px 0px 0px 70px;
+  padding: 0px 0px 0px 10vw;
   position: absolute;
-  bottom: 70px;
-  width: 100%;
+  bottom: 5vw;
   text-align: left;
   hyphens: none;
 }
@@ -338,6 +337,7 @@ img {
 .icon-img {
   display: flex;
   padding-left: 5vw;
+  width: 2vw;
 }
 
 .black-bgr{
@@ -376,7 +376,7 @@ img {
   height: 23vw;
   background-size: cover;
   color: white;
-  padding: 20px;
+  padding: 0vw;
 }
 
 .image-box{
