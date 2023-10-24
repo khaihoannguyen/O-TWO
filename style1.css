@@ -83,7 +83,7 @@ h4 {
 
 p {
   font-family: "Lato";
-  font-size: 0.9vw;
+  font-size: 1vw;
   font-style: normal;
   font-weight: lighter;
   -webkit-hyphens: manual;
@@ -180,7 +180,7 @@ h4 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 5vw 2vw 2vw 2vw;
+  padding: 5vw 0vw 2vw 0vw;
 }
 
 .description-left {
@@ -281,6 +281,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  padding: 0vw 2vw 0vw 2vw;
 }
 
 .red-bg-headings {
