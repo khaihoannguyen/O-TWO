@@ -107,6 +107,25 @@ h4 {
   hyphens: none;
 }
 
+.body1 {
+  color: #ffffff;
+  font-family: "lato", sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 32px; /* 128% */
+  text-align: center;
+}
+
+.body2 {
+  color: #000;
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: light;
+  font-weight: 400;
+  line-height: normal;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
@@ -201,7 +220,7 @@ h4 {
   padding: 0vw 2vw 5vw 2vw;
 }
 
-.body-left{
+.body-left {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -210,7 +229,7 @@ h4 {
   padding: 2vw 4vw 10vw 4vw;
 }
 
-.body-right{
+.body-right {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -224,7 +243,7 @@ h4 {
   width: 200vw;
 }
 
-.text-padding{
+.text-padding {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -258,7 +277,7 @@ h4 {
   color: #f2f2f2;
 }
 
-.one-column-block{
+.one-column-block {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -340,7 +359,7 @@ img {
   width: 2vw;
 }
 
-.black-bgr{
+.black-bgr {
   background-color: #000000;
   color: #f2f2f2;
   padding: 0vw 0vw 0vw 3vw;
@@ -359,7 +378,7 @@ img {
   padding-right: 55vw;
 }
 
-.center-text{
+.center-text {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -368,9 +387,13 @@ img {
 
 /* spotlight banner transparancy */
 #show_bg_1 {
-  background-image:
-  linear-gradient(to right, #000000,hsla(0, 2%, 10%, 0.914), hsla(0, 3%, 15%, 0.14)),
-  url(image/STIMSON+NEU+ISEC-4393_dwn.jpg);
+  background-image: linear-gradient(
+      to right,
+      #000000,
+      hsla(0, 2%, 10%, 0.914),
+      hsla(0, 3%, 15%, 0.14)
+    ),
+    url(image/STIMSON+NEU+ISEC-4393_dwn.jpg);
   object-fit: cover;
   object-position: bottom 10%;
   width: 100%;
@@ -380,6 +403,180 @@ img {
   padding: 0vw;
 }
 
-.image-box{
+.image-box {
   padding: 3vw 0vw 3vw 0vw;
+}
+
+label {
+  color: #fff;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 2vw;
+  font-style: bold;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* get involved section below */
+.getinvolved {
+  background-color: #c8102e;
+  padding: 10vw 10vw;
+  width: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Field input*/
+input[type="text"] {
+  width: 34vw;
+  height: 6vw;
+  padding: 1vw 1vw;
+  margin: 1vw 0vw 1vw 0vw;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 1vw;
+  background-color: #f8f8f8;
+  font-size: 2vw;
+  resize: none;
+}
+
+leftBox {
+  float: left;
+  width: 100px;
+
+}
+
+rightBox {
+  float: right;
+  width: 100px;
+}
+
+/* text area */
+textarea {
+  width: 688px;
+  height: 127px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* i want to be a part button */
+button[type="button"],
+button[type="submit"],
+button[type="reset"] {
+  background-color: #000000;
+  border: none;
+  border-radius: 1vw;
+  color: white;
+  padding: 2vw 2vw;
+  font-family: "Lato";
+  font-size: 2vw;
+  text-decoration: none;
+  margin: auto auto;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+}
+
+/*container*/
+.container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  background: var(--NeU-Red, #c8102e);
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  font-size: 2vw;
+  justify-content: space-between;
+}
+
+/*radiobutton*/
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3vw;
+  width: 3vw;
+  margin-right: 2vw;
+  background-color: #eee;
+  border-radius: 50%;
+  border-color: #000;
+}
+
+.container1 {
+  display: inline;
+  position: relative;
+  padding-left: 4vw;
+  margin-right: 4vw;
+  margin-bottom: 5vw;
+  cursor: pointer;
+  font-size: 2vw;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+/* On mouse-over, add a grey background color */
+.container1:hover input ~ .checkmark {
+  background-color: white;
+  border-color: black;
+}
+/* When the radio button is checked, add a red background */
+.container1 input:checked ~ .checkmark {
+  background-color: white;
+  border-color: black;
+  border-width: 2vw;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container1 input:checked ~ .checkmark:after {
+  display: inline;
+  border-color: black;
+}
+
+/* Style the indicator (dot/circle) */
+.container1 .checkmark:after {
+  top: 0.5vw;
+  left: 0.5vw;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  background: black;
+}
+
+.options {
+  margin-bottom: 50px;
+  display: inline;
+}
+
+.thirdoption {
+  margin-top: 6vw;
 }
