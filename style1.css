@@ -593,12 +593,20 @@ button[type="reset"] {
   margin-top: .7vw;
 }
 
-.thirdoption {
-
-}
-
 .form {
   display: flex;
   flex-direction: column;
   padding: 0vw 5vw 0vw 5vw;
+}
+
+.tableauPlaceholder{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 3vw 0vw 3vw 0vw;
+}
+
+.tableauViz {
+  display: flex;
+  justify-content: center;
 }
