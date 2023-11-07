@@ -22,11 +22,11 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-/* Change the color of links on hover */
+/* Change the color of links on hover
 .topnav a:hover {
   background-color: #c8102e;
   color: C8102E;
-}
+} */
 
 /* Create a right-aligned (split) link inside the navigation bar */
 .topnav a.split {
