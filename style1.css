@@ -603,7 +603,7 @@ button[type="reset"] {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 3vw 0vw 3vw 0vw;
+  padding: 0vw 0vw 2vw 0vw;
 }
 
 .tableauViz {
