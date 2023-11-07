@@ -610,3 +610,11 @@ button[type="reset"] {
   display: flex;
   justify-content: center;
 }
+
+.interactive_graph{
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 2vw 1vw 2vw;
+  width: 100%;
+  height: auto;
+}
