@@ -45,7 +45,7 @@ body {
 }
 
 .title {
-  padding: 0 10vw 0 10vw;
+  padding: 0 10vw 3vw 10vw;
 }
 
 /* Create typography hierachy*/
@@ -60,7 +60,7 @@ h1 {
 
 h2 {
   font-family: "Lato";
-  font-size: 3vw;
+  font-size: 2.7vw;
   font-weight: 500;
   font-style: normal;
   hyphens: none;
@@ -609,4 +609,12 @@ button[type="reset"] {
 .tableauViz {
   display: flex;
   justify-content: center;
+}
+
+.interactive_graph{
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 2vw 1vw 2vw;
+  width: 100%;
+  height: auto;
 }
