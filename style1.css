@@ -622,7 +622,7 @@ button[type="reset"] {
   display: flex;
   flex-direction: column;
   padding: 1vw 2vw 1vw 2vw;
-  width: 100vw;
-  height: 80vw;
+  width: fit-content;
+  height: fit-content;
   overflow: visible;
 }
