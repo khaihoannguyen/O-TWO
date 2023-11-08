@@ -599,11 +599,18 @@ button[type="reset"] {
   padding: 0vw 5vw 0vw 5vw;
 }
 
-.tableauPlaceholder{
+.tableauPlaceholderCenter{
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 0vw 0vw 2vw 0vw;
+  padding: 1vw 0vw 3vw 0vw;
+}
+
+.tableauPlaceholderCenter2{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0vw 0vw 0vw 0vw;
 }
 
 .tableauViz {
