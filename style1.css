@@ -264,7 +264,8 @@ sh4 {
   align-items: flex-start;
   padding: 2vw 4vw 10vw 4vw;
 }
-. {
+
+.picture{
   display: flex;
   padding: 0vw 3vw 4vw 4vw;
   width: 170vw;
@@ -649,3 +650,4 @@ button[type="reset"] {
   height: fit-content;
   overflow: visible;
 }
+
