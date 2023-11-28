@@ -54,7 +54,7 @@ h1 {
   font-weight: bolder;
   font-style: normal;
   font-size: 5vw;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   padding-top: 40px;
 }
 
@@ -81,6 +81,7 @@ h4 {
   font-weight: 700;
   font-weight: medium;
   hyphens: none;
+  margin: 0px;
 }
 
 p {
@@ -99,6 +100,18 @@ h5 {
   font-style: normal;
   font-weight: medium;
   hyphens: none;
+}
+
+h6 {
+  font-family: "Lato";
+  font-size: 2vw;
+  font-style: normal;
+  padding: 2vw;
+  font-weight: lighter;
+  hyphens: none;
+  margin: 0px;
+  text-align: center;
+  width: 100%;
 }
 
 sh4 {
@@ -224,6 +237,16 @@ sh4 {
   padding: 2vw 2vw 5vw 2vw;
 }
 
+.quote-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0vw 20vw 0vw 20vw;
+  width:100%;
+  box-sizing: border-box;
+}
+
 .body-left {
   display: flex;
   flex-direction: column;
@@ -241,7 +264,7 @@ sh4 {
   align-items: flex-start;
   padding: 2vw 4vw 10vw 4vw;
 }
-.picture {
+. {
   display: flex;
   padding: 0vw 3vw 4vw 4vw;
   width: 170vw;
@@ -296,7 +319,7 @@ img {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 3vw;
+  padding-top: 5vw;
 }
 
 .two-column-text {
