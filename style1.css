@@ -114,15 +114,6 @@ h6 {
   width: 100%;
 }
 
-sh4 {
-  font-family: "Lato";
-  font-weight: bolder;
-  font-style: normal;
-  font-size: 5vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 4vw;
-}
 
 .body1 {
   color: #ffffff;
@@ -141,6 +132,17 @@ sh4 {
   font-style: light;
   font-weight: 400;
   line-height: normal;
+}
+
+figcaption {
+  color: #333333;
+  font-family: "Lato";
+  font-size: 1.3vw;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: .8vw;
+  font-style: italic;
+  text-align: center;
 }
 
 /* Slideshow container */
@@ -271,6 +273,11 @@ sh4 {
   width: 170vw;
 }
 
+.picture-no-padding{
+  display: flex;
+  width: 170vw;
+}
+
 .text-padding {
   display: flex;
   flex-direction: column;
@@ -281,7 +288,6 @@ sh4 {
 .red-bg {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #c6112e;
   width: 100%;
   color: #f2f2f2;
@@ -291,10 +297,10 @@ sh4 {
 .mutiple-columns {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
-  padding: 0vw 20vw 0vw 20vw;
+  justify-content: space-around;
+  padding: 2vw 20vw 0vw 20vw;
   color: #f2f2f2;
 }
 
@@ -303,6 +309,7 @@ sh4 {
   flex-direction: column;
   align-items: center;
   color: #f2f2f2;
+  text-align: center;
 }
 
 .one-column-block {
