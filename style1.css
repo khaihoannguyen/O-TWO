@@ -370,6 +370,14 @@ img {
   display: inline-block;
 }
 
+.line-red-middle {
+  display: flex;
+  width: 200px;
+  border: 6px solid #c6112e;
+  margin: 3px;
+}
+
+
 .icon {
   display: flex;
   justify-content: center;
@@ -651,3 +659,14 @@ button[type="reset"] {
   overflow: visible;
 }
 
+.body-red-bold {
+  color: #c8102e;
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0px 0px 0px 10vw;
+  position: absolute;
+  bottom: 5vw;
+  text-align: left;
+  hyphens: none;
+}
