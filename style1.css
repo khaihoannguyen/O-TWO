@@ -265,6 +265,15 @@ figcaption {
   padding: 2vw 4vw 10vw 4vw;
 }
 
+a {
+  color: #000000;
+  font-family: "Lato";
+  font-size: 1.4vw;
+  font-weight: 800;
+  font-style: bold;
+  text-align: center;
+  padding-top: 3vw;
+}
 .picture{
   display: flex;
   padding: 0vw 3vw 4vw 4vw;
@@ -403,7 +412,7 @@ img {
 .black-bgr {
   background-color: #000000;
   color: #f2f2f2;
-  padding: 0vw 0vw 0vw 3vw;
+  padding: 3vw 1vw 3vw 3vw;
 }
 
 .spotlight {
