@@ -239,7 +239,7 @@ figcaption {
 
 .quote-center {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;z
   justify-content: center;
   align-items: center;
   padding: 0vw 20vw 3vw 20vw;
@@ -256,6 +256,12 @@ figcaption {
   padding: 2vw 4vw 10vw 4vw;
 }
 
+.body-left figure{
+  margin-left:0;
+  margin-bottom:0;
+  margin-top:2vw;
+}
+
 .body-right {
   display: flex;
   flex-direction: column;
@@ -264,6 +270,13 @@ figcaption {
   align-items: flex-start;
   padding: 2vw 4vw 10vw 4vw;
 }
+
+.body-right figure{
+  margin-left:0;
+  margin-bottom:0;
+  margin-top:2vw;
+}
+
 
 a {
   color: #000000;
@@ -274,13 +287,13 @@ a {
   text-align: center;
   padding-top: 3vw;
 }
-.picture{
+.picture {
   display: flex;
   padding: 0vw 3vw 4vw 4vw;
   width: 170vw;
 }
 
-.picture-no-padding{
+.picture-no-padding {
   display: flex;
   width: 170vw;
 }
@@ -289,7 +302,15 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-right: 4vw;
+  padding-right: 2vw;
+}
+
+.text-padding-short {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 5vw;
+  width: 30vw;
 }
 
 .red-bg {
@@ -311,7 +332,7 @@ a {
   color: #f2f2f2;
 }
 
-.three-columns{
+.three-columns {
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -361,7 +382,6 @@ img {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0vw 2vw 0vw 2vw;
 }
 
 .red-bg-headings {
@@ -393,6 +413,13 @@ img {
 
 .line {
   width: 30vw;
+  border: 1px solid #000000;
+  margin: 3px;
+  display: inline-block;
+}
+
+.line-short {
+  width: 20vw;
   border: 1px solid #000000;
   margin: 3px;
   display: inline-block;
@@ -706,14 +733,31 @@ button[type="reset"] {
   hyphens: none;
 }
 
-.scatter-plot{
+.scatter-plot {
+  display: flex;
   background-color: #f5f5f5;
   width: 100%;
+  height: 60vw;
+  padding: 0;
+  margin: 0;
+}
+
+.scatter-plot figure {
+  width: 100%;
   height: 100%;
-  margin: 0px;
 }
 
 .image-full{
   width: 100%;
   margin: 0px;
+}
+
+.small-multiples {
+  display: flex;
+  width: 300%;
+}
+
+.small-multiples figure {
+  width: 100%;
+  border: none;
 }
